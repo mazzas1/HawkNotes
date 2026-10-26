@@ -14,4 +14,4 @@ relationships to each other
 
 Relational schema diagram to show how the database will be structured
 <img width="861" height="672" alt="image" src="https://github.com/user-attachments/assets/7e9f5a4b-a396-4844-8322-1f837814db6f" />
-
+(TB Added: User entity to replace account's role, account entity reworked to reflect account creation being optional)
