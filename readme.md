@@ -14,4 +14,11 @@ relationships to each other
 
 Relational schema diagram to show how the database will be structured
 <img width="861" height="672" alt="image" src="https://github.com/user-attachments/assets/7e9f5a4b-a396-4844-8322-1f837814db6f" />
-(TB Added: User entity to replace account's role, account entity reworked to reflect account creation being optional)
+
+--Database Implementation--
+For this project, I used MariaDB since I was already familiar with it from a previous class. I created three tables for my
+database, "Account", "Note", and "Folder". These entities reference each other for several attributes, so it made sense to
+me to create all three to start. Both the Folder and Note tables have an AccountID foreign key referencing the AccountID field 
+in the Account table. Additionally, the Note table references the FolderName field of the folder table and the Folder table
+references the Title field of the Note table.
+
